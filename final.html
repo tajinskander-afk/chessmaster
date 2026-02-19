@@ -18,14 +18,33 @@
 <body>
 
 <h1>Les Pièces du Jeu d'Échecs</h1>
+<div class="video-container">
+  <iframe id="videoPlayer"
+          width="560"
+          height="315"
+          src=""
+          frameborder="0"
+          allow="autoplay"
+          allowfullscreen>
+  </iframe>
+
+  <script>
+function changeVideo(videoId) {
+  document.getElementById("videoPlayer").src =
+    "https://www.youtube.com/embed/" + videoId + "?autoplay=1&mute=1";
+}
+</script>
+</div>
 
 <div class="piece">
     <h2>♔ Roi</h2>
     <ul>
         <li><strong>Valeur :</strong>Sans valeur, C'est la pièce la plus importante</li>
         <li><strong>Déplacement :</strong> Une case dans toutes les directions</li>
-        <li><strong>Spécial :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;">
-            Roque Possible</a> </li>
+        <li><strong>Spécial :</strong><a href="#" onclick="changeVideo('abc123'); return false;">
+  Roque Possible
+</a>
+ </li>
     </ul>
   
 </div>
