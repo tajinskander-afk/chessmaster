@@ -1,0 +1,65 @@
+
+.boardimg {
+  margin-block-start: 100px;
+  
+    display: block;                
+    margin: 30px ;             /* centers horizontally + nice vertical spacing */
+    width: 380px;                  /* ← controls the size – adjust between 320–450px */
+    height: auto;                  /* keeps proportions */
+    max-width: 90;                /* safe on mobile/small windows */
+    border: 64px solid #8b5a2b;     /* optional: wooden look like screenshot */
+    border-radius: 99px;
+    box-shadow: 0 8px 20px rgba(100,100,100);  /* depth like in your first image */
+}
+ 
+                 
+   
+}
+}
+}
+
+p{
+  color: white;
+  side
+}
+.card {
+  background: linear-gradient(145deg, #0a0a0a, #141414);
+  border: 1px solid #333;
+  border-radius: 16px;
+  padding: 40px;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.8),
+              0 0 30px rgba(212,160,23,0.15);
+}
+h1 {
+  text-align: center;
+  color: #d4a017;         
+  margin-bottom: px;
+  font-size: 3.5rem;
+  text-shadow: 0 0 15px rgba(212, 160, 23, 0.5);
+}
+body {
+  background-image: url("fond2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e0e0e0;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+card.intro {
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+.piece h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;}
+.piece li {
+    margin: 16px 0;
+    text-align: center;}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}

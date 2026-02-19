@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ChessMaster: Les pièces des échecs </title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les Pièces d'Échecs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Les Pièces du Jeu d'Échecs</h1>
+
+<div class="piece">
+    <h2>♔ Roi</h2>
+    <ul>
+        <li><strong>Valeur :</strong>Sans valeur, C'est la pièce la plus importante</li>
+        <li><strong>Déplacement :</strong> Une case dans toutes les directions</li>
+        <li><strong>Spécial :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;">
+            Roque Possible</a> </li>
+    </ul>
+  
+</div>
+
+<div class="piece">
+    <h2>♕ Reine</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 9 points</li>
+        <li><strong>Déplacement :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;"> Horizontal, vertical et diagonal</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♖ Tour</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 5 points</li>
+        <li><strong>Déplacement :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;"> Horizontal ou vertical</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♗ Fou</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 3 points</li>
+        <li><strong>Déplacement :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;"> Diagonale uniquement</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♘ Cavalier</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 3 points</li>
+        <li><strong>Déplacement :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;"> En forme de L</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♙ Pion</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 1 point</li>
+        <li><strong>Déplacement :</strong> 1 case (2 au premier coup)</li>
+        <li><strong>Capture :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;"> Diagonale</a></li>
+      <li><strong>Specials :</strong><a href="#" onclick="openModal(); return false;" style="color: #0066cc; text-decoration: underline; cursor: pointer;"> En passant + Promotion</a></li>
+      
+    </ul>
+</div>
+  <H1> L'échéquier</H1>
+<div class="boardimg">
+    <img src="chessboard.jpg" width=550 > 
+</div>
+      
+  
+
+</body>
+</html>
