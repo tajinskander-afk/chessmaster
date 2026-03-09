@@ -59,7 +59,9 @@ p{
   height: 300px;
 }
 h1{
-  color:#630505;
+  color: #A50707;
+  text-shadow: 
+        0 0 4px #ff0000,
   font-size: 70px;
   margin: 70px 70px 80px 400px;
   
