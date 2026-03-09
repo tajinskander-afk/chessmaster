@@ -119,7 +119,8 @@ p5{
 @keyframes rainbow {
   0% {background-position: 0%;}
   100% {background-position: 100%;}
-.input {
+
+input {
   color: white;
   padding: 15px;
   font-size: 15px;
