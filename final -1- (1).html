@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChessMaster: Les pièces des échecs</title>
+  <link rel="stylesheet" href="style2.css">
+  <link rel="icon" type="image/jnpg" href="stupidlogo.jpg">
+</head>
+
+<body>
+
+<h1>Les Pièces du Jeu d'Échecs</h1>
+
+<div class="piece">
+    <h2>♔ Roi</h2>
+    <ul>
+        <li><strong>Valeur :</strong> Sans valeur, c'est la pièce la plus importante</li>
+        <li><strong>Déplacement :</strong> Une case dans toutes les directions</li>
+        <li><strong>Spécial :</strong> <a href="#modal1">Roque possible</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♕ Reine</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 9 points</li>
+        <li><strong>Déplacement :</strong> <a href="#modal2">Horizontal, vertical et diagonal</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♖ Tour</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 5 points</li>
+        <li><strong>Déplacement :</strong> <a href="#modal3">Horizontal ou vertical</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♗ Fou</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 3 points</li>
+        <li><strong>Déplacement :</strong> <a href="#modal4">Diagonale uniquement</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♘ Cavalier</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 3 points</li>
+        <li><strong>Déplacement :</strong> <a href="#modal5">En forme de L</a></li>
+    </ul>
+</div>
+
+<div class="piece">
+    <h2>♙ Pion</h2>
+    <ul>
+        <li><strong>Valeur :</strong> 1 point</li>
+        <li><strong>Déplacement :</strong> 1 case (<a href="#modal6">2 au premier coup</a>)</li>
+        <li><strong>Capture :</strong> <a href="#modal7">Diagonale</a></li>
+        <li><strong>Spécial :</strong> <a href="#modal8">En passant + Promotion</a></li>
+    </ul>
+</div>
+
+<h1>L'Échiquier</h1>
+
+<div class="board-section">
+    <div class="boardimg">
+        <img src="chessboard.jpg" alt="Échiquier">
+    </div>
+
+    <div class="board-text">
+        <h2>Caractéristiques de l’échiquier</h2>
+        <ul>
+            <li>8 lignes</li>
+            <li>8 colonnes</li>
+            <li>64 cases</li>
+            <li>Cases noires et blanches alternées</li>
+            <li>Chaque joueur possède 16 pièces</li>
+        </ul>
+    </div>
+</div>
+
+<h1>Règles du Jeu d'Échecs</h1>
+
+<div class="rules">
+    <p>
+        Le jeu d'échecs se joue entre deux joueurs. Les blancs commencent toujours.
+    </p>
+    <p>
+        L’objectif est de mettre le roi adverse en échec et mat,
+        c’est-à-dire qu’il est attaqué et ne peut plus s’échapper.
+    </p>
+    <p>
+        Une partie peut aussi se terminer par une égalité (pat),
+        un abandon ou un accord entre les joueurs.
+    </p>
+</div>
+
+<!-- MODALS -->
+
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="https://www.youtube.com/embed/FQAAVjhVDlg" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="https://www.youtube.com/embed/" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="https://www.youtube.com/embed/RoH3lexuhY" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div id="modal4" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="https://www.youtube.com/embed/" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div id="modal5" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="https://www.youtube.com/embed/1xkgZT2n82E" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div id="modal6" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="https://www.youtube.com/embed/DzsI9qveYqQ" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div id="modal7" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="" allowfullscreen></iframe>
+  </div>
+</div>
+
+<div id="modal8" class="modal">
+  <div class="modal-content">
+    <a href="#" class="close">&times;</a>
+    <iframe src="https://www.youtube.com/embed/WnJkAu09x28" allowfullscreen></iframe>
+  </div>
+</div>
+
+</body>
+</html>
