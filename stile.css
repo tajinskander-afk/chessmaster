@@ -119,11 +119,11 @@ p5{
 @keyframes rainbow {
   0% {background-position: 0%;}
   100% {background-position: 100%;}
-input {
-  background-color: white;
+.input {
+  color: white;
   padding: 15px;
   font-size: 15px;
-  border: 1px solid #ccc;
+  
   border-radius: 15px;
   outline: none;
 }
