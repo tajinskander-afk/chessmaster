@@ -14,7 +14,15 @@ h1 {
   margin-bottom: px;
   font-size: 3.5rem;
   text-shadow: 0 0 15px rgba(95, 230, 203, 0.5);
-
+}
+h2 {
+  text-align: center;
+  color: #5FE6CB;         
+  margin-bottom: px;
+  font-size: 3.5rem;
+  text-shadow: 0 0 15px rgba(95, 230, 203, 0.5);
+}  
+}
 
 p3{
 display:block;
@@ -72,4 +80,9 @@ font-weight:bold;
         transform: translateY(0);
         opacity: 1;
     }
+}
+a {
+  font-family: Arial, sans-serif;
+  color:white;
+padding:30px;
 }
