@@ -51,7 +51,11 @@ p{
   class="fade-in";
 }
 p3{
-  
+   color: #A50707;
+  font-size: 80px;
+    font-family: Arial, sans-serif;
+    text-shadow: 
+        0 0 4px #ff0000,
 }
 .texte {
   font-family: Arial, Helvetica, sans-serif;
